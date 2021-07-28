@@ -1,0 +1,14 @@
+.header {
+    position: relative;
+    height: calc(100vh - 200px);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    /* background-image: linear-gradient(to bottom right, #E0FFFE, rgb(225 236 255)); */
+}
+.haeder__slogan {
+    color: #333;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+}

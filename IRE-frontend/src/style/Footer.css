@@ -1,0 +1,45 @@
+.footer {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    padding: 3.25vw;
+    box-sizing: border-box;
+    background-color: #333;
+}
+.footer__brand > img{
+    cursor: pointer;
+    width: 120px;
+}
+.footer__brand--sub {
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    
+}
+
+.footer__brand--sub  > img {
+    filter: grayscale(100%);
+    transition: all .5s;
+}
+.footer__brand--sub > img:hover {
+    filter: grayscale(0%);
+    transition: all .5s;
+}    
+.footer__copyright {
+    color: rgb(189, 189, 189);
+    font-size: .85rem;
+    line-height: 1.2rem;
+    padding: 20px 0 5px 0;
+}
+.footer__copyright__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.item.policy {
+    position: absolute;
+    bottom: 20px;
+    color: rgb(139, 139, 139);
+    font-size: .6rem;
+}

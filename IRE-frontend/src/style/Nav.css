@@ -1,0 +1,46 @@
+.nav {
+    position: relative;
+    height: 60px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    line-height: 60px !important;
+    padding: 0 3.25vw;
+    box-sizing: border-box;
+}
+.nav__logo > img{
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    padding: 20px 0;
+    width: 120px;
+}
+.nav__toggle,
+.nav__toggle > i{
+    display: inline-block;
+    line-height: 60px;
+}
+.nav__toggle > i {
+     cursor: pointer;
+}
+.sign-up--btn {
+    cursor: pointer;
+    position: absolute;
+    right: 3.25vw;
+    top: 50%;
+    margin-top: -16.5px;
+    display: inline-block;
+    background-color: #E1ECFF;
+    height: 35px;
+    width: 100px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 20px;
+    color: rgb(26, 16, 16);
+    font-weight: 400;
+    transition: all .2s;
+    font-size: .9rem;
+
+}
+.sign-up--btn:hover {
+    background-color: #d0dbec;
+    transition: all .2s;
+}
