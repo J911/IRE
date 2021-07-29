@@ -5,5 +5,21 @@
     height: 40px;
     line-height: 40px;
     color: #333;
-    background-color: #f8dfa6;
+    background-color: #ffe3a5;
+}
+.noti.hide {
+    height: 0;
+    overflow: hidden;
+    transition: all .2s;
+}
+.noti--hide {
+    cursor: pointer;
+    font-size: 0.8rem;
+    float: right;
+    transition: all .2s;
+    color: rgb(126, 126, 126);
+}
+.noti--hide:hover {
+    color: #000;
+    transition: all .2s;
 }
