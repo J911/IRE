@@ -1,0 +1,10 @@
+.console-log--wrapper {
+    padding: 20px 0;
+    display: block;
+}
+.console-log__console--wrapper {
+    vertical-align: top;
+    display: inline-block;
+    /* float: right; */
+    width: calc(100% - 320px);
+}

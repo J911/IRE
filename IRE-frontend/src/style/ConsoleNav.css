@@ -1,0 +1,31 @@
+.console-nav {
+    display: inline-block;
+    /* border-radius: 5px; */
+    min-height: 80vh;
+    color: #24292e;
+    /* background-color: #24292e; */
+    width: 300px;
+
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.console-nav__menu {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.console-nav__menu .item {
+    margin-bottom: 10px;
+    line-height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all .4s;
+
+}
+.console-nav__menu .item:hover {
+    background-color: #464646;
+    transition: all .2s;
+    color: #fafbfc;
+}

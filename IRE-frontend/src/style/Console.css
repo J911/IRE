@@ -1,0 +1,38 @@
+.console {
+    display: inline-block;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 80vh;
+    color: #fafbfc;
+    background-color: #24292e;
+
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.console__header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.console__header__title {
+    vertical-align: middle;
+
+    /* height: 50px; */
+    /* line-height: 20px; */
+    font-size: 1.1rem;
+}
+
+.console__header__title i {
+    /* vertical-align: top; */
+    font-size: 1.1rem;
+
+    margin-right: 5px;
+    color: rgb(51, 173, 51);
+}
+.console__header__subtitle {
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.438);
+    margin-left: 25px;
+
+}
