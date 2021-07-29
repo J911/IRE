@@ -17,6 +17,7 @@
 }
 
 .console-nav__menu .item {
+    cursor: pointer;
     margin-bottom: 10px;
     line-height: 20px;
     padding: 10px;
