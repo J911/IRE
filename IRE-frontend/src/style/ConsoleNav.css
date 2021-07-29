@@ -25,7 +25,8 @@
     transition: all .4s;
 
 }
-.console-nav__menu .item:hover {
+.console-nav__menu .item:hover,
+.console-nav__menu .item.active {
     background-color: #464646;
     transition: all .2s;
     color: #fafbfc;

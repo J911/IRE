@@ -2,7 +2,7 @@
     <div class="console-nav" id="console-nav">
         <!-- #f5f8fa -->
         <ul class="console-nav__menu">
-            <li class="item">
+            <li class="item active">
                 test session 1
             </li>
             <li class="item">
