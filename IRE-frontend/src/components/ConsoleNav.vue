@@ -3,16 +3,16 @@
         <!-- #f5f8fa -->
         <ul class="console-nav__menu">
             <li class="item active">
-                test session 1
+                203.230.103.200 (RTX 8000)
             </li>
             <li class="item">
-                test session 2
+                203.230.103.205 (RTX 8000)
             </li>
             <li class="item">
-                test session 3
+                203.230.103.209 (RTX 3090)
             </li>
             <li class="item">
-                test session 4
+                203.230.103.13 (TITAN XP)
             </li>
             
         </ul>

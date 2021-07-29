@@ -14,7 +14,7 @@
 
 <script>
 import Nav from '../components/Nav.vue';
-import Notification from '../components/notification.vue';
+import Notification from '../components/Notification.vue';
 import ConsoleNav from '../components/ConsoleNav.vue';
 import Console from '../components/Console.vue';
 import Footer from '../components/Footer.vue';
