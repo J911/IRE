@@ -27,8 +27,5 @@ jobs:
           script: |
             cd ${{ secrets.PROJ_DIR }}
             git pull https://github.com/j911/IRE.git
-            cd ${{ secrets.PROJ_DIR }}/IRE-frontend
-            export NVM_DIR=~/.nvm
-            source ~/.nvm/nvm.sh
-            npm install
-            npm run build
+            cd ${{ secrets.PROJ_DIR }}/scripts
+            bash run.sh
